@@ -1,0 +1,16 @@
+$banana: yellow;
+
+h1 {
+  display: flex;
+  justify-content: center;
+
+  span {
+    color: $banana;
+  }
+}
+
+div {
+  width: 50px;
+  height: 100px;
+  background-color:  red;
+}
