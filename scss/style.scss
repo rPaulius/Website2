@@ -6,6 +6,10 @@
 @import "form.scss";
 @import "awesome.scss";
 @import "pricing-options.scss";
+@import "custom-section.scss";
+@import "contact.scss";
+@import "form2.scss";
+@import "footer.scss";
 
 
 html {
@@ -16,7 +20,7 @@ html {
 body { 
   margin: 0;
   font-family: 'Montserrat', sans-serif;
-  height: 5000px;
+  
 }
 
 .container {
