@@ -1,4 +1,8 @@
-
+// Mobile menu
+document.getElementById('mobile-menu-trigger').addEventListener('click', function() {
+  this.classList.toggle('active');
+  document.getElementById('navigation').classList.toggle('active');
+});
 
   // Allows only to input numbers 
 
@@ -19,14 +23,6 @@ function validate(evt) {
       if(theEvent.preventDefault) theEvent.preventDefault();
     }
   }
-
-
-
-
-
-
-
-
 
 
   // Tabs section
@@ -59,6 +55,13 @@ for (let tab of tabNavigationBlocks) {
     // swiper.slideTo(index - 1);
   })
 }
+
+
+
+
+
+
+
 
 
 // SWIPER CUSTOMERS
