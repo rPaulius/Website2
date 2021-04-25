@@ -10,16 +10,19 @@
 @import "contact.scss";
 @import "form2.scss";
 @import "footer.scss";
-
+@import "tab-section.scss";
 
 html {
   scroll-behavior: smooth;
+  height: -webkit-fill-available;
 }
 
 
 body { 
   margin: 0;
   font-family: 'Montserrat', sans-serif;
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
   
 }
 
